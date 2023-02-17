@@ -1,0 +1,26 @@
+.navbar {
+    display: block;
+    border-style: solid;
+  
+}
+
+.navicon {
+    flex-wrap: wrap;
+}
+
+.aboutme {
+    border-style: outset;
+}
+
+.work {
+    border-style: outset;
+}
+
+.resume {
+    border-style: outset;
+}
+
+.contact {
+    border-style: outset;
+
+}
