@@ -1,26 +1,41 @@
 .navbar {
-    display: block;
-    border-style: solid;
-  
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+    font-size: 50px;
 }
 
-.navicon {
+section h1 {
+    color: rgb(13, 8, 65);
+    font-family: "sans-serif";
+
+}
+
+nav {
     flex-wrap: wrap;
+    text-align: right;
+    padding: 20px;
+    font: rgb(13, 8, 65)
 }
 
 .aboutme {
     border-style: outset;
+    padding: 10px;
 }
 
 .work {
     border-style: outset;
+    padding: 10px;
 }
 
 .resume {
     border-style: outset;
+    padding: 10px;
 }
 
 .contact {
     border-style: outset;
+    padding: 10px;
 
 }
