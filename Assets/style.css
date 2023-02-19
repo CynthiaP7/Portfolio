@@ -6,6 +6,8 @@ header {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(52, 141, 192);
 }
 
 h1 {
@@ -24,33 +26,36 @@ nav {
     display: flex;
     flex-direction: row;
     font-family: "arial";
-    position: right;
-
+    justify-content: space-around;
 }
 
-header nav p{
-    text-align: justify;
-
+ul {
+    list-style-type: none;
 }
+
 
 
 .aboutme {
     border-style: outset;
     padding: 10px;
+    background-color: rgb(96, 188, 241);
 }
 
 .work {
     border-style: outset;
     padding: 10px;
+    background-color:   rgb(224, 163, 214);
 }
 
 .resume {
     border-style: outset;
     padding: 10px;
+    background-color: rgb(224, 163, 214);
 }
 
 .contact {
     border-style: outset;
     padding: 10px;
+    background-color: rgb(224, 163, 214);
 
 }
