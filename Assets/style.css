@@ -4,11 +4,9 @@ header {
     padding: 10px;
     margin: 10px;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
     background-color: rgb(52, 141, 192);
 }
+
 
 h1 {
     color: rgb(13, 8, 65);
@@ -17,45 +15,66 @@ h1 {
     position: left;
 
 }
-
 nav {
-    flex-wrap: wrap;
-    text-align: right;
     padding: 20px;
+    margin: 20px;
     font: rgb(13, 8, 65);
-    display: flex;
-    flex-direction: row;
     font-family: "arial";
-    justify-content: space-around;
+    display: inline;
+    
 }
 
-ul {
+nav ul li{
     list-style-type: none;
+    display: inline;
+    margin : 20px;
+    font-size: 20px;
+
+}
+    
+main {
+    display: flex;
 }
 
+main p {
+    font-size: 20px;
+    font-family: "arial";
+}
 
+main img {
+    height: 250px;
+    width: 230x;
+    margin: 5px;
+    display: flex;
+
+}
 
 .aboutme {
     border-style: outset;
     padding: 10px;
     background-color: rgb(96, 188, 241);
+    font-size: 40px;
+    font-family: "arial";
 }
 
 .work {
     border-style: outset;
     padding: 10px;
     background-color:   rgb(224, 163, 214);
+    font-family: "arial";
 }
 
 .resume {
     border-style: outset;
     padding: 10px;
     background-color: rgb(224, 163, 214);
+    font-family: "arial";
 }
 
 .contact {
     border-style: outset;
     padding: 10px;
     background-color: rgb(224, 163, 214);
+    font-family: "arial";
 
 }
