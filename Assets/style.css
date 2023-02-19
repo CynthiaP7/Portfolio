@@ -40,14 +40,28 @@ main p {
     font-size: 20px;
     font-family: "arial";
     color:rgb(16, 54, 77);
+    margin: 50px;
 }
 
 main img {
     height: 250px;
     width: 230x;
-    margin: 5px;
+    margin: 50px;
+    display: flex;
+    }
+
+.border {
+    height: 300px;
+    border-right: 15px solid grey;
+    margin: 50px;
     display: flex;
 
+}
+
+main h2 {
+    margin: 30px;
+    margin-top: 50px;
+    
 }
 
 .aboutme {
@@ -57,6 +71,7 @@ main img {
     font-size: 40px;
     font-family: "arial";
     color: rgb(16, 54, 77);
+
 }
 
 .work {
@@ -65,6 +80,7 @@ main img {
     background-color: rgb(175, 198, 211);
     font-family: "arial";
     color: rgb(16, 54, 77);
+    font-size: 40px;
 }
 
 .resume {
@@ -73,6 +89,7 @@ main img {
     background-color: rgb(175, 198, 211);
     font-family: "arial";
     color: rgb(16, 54, 77);
+    font-size: 40px;
 }
 
 .contact {
@@ -81,5 +98,6 @@ main img {
     background-color: rgb(175, 198, 211);
     font-family: "arial";
     color: rgb(16, 54, 77);
+    font-size: 40px;
 
 }
