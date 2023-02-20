@@ -5,13 +5,14 @@ header {
     margin: 10px;
     display: flex;
     background-color: rgb(16, 54, 77);
+    flex-wrap: wrap;
 }
 
 
 h1 {
     color: rgb(175, 198, 211);
     font-family: "arial";
-    font-size: 50px;
+    font-size: 80px;
     position: left;
     margin-left: 80px;
     margin-right: 80px;
@@ -22,7 +23,7 @@ nav {
     color: rgb(175, 198, 211);
     font-family: "arial";
     display: inline;
-    margin-left: 1600px;
+    margin-left: 1300px;
     
 }
 
@@ -45,13 +46,14 @@ a:hover {
     
 main {
     display: flex;
+    flex-wrap: wrap;
 }
 
 main p {
     font-size: 25px;
     font-family: "arial";
     color:rgb(16, 54, 77);
-    margin: 50px;
+    margin: 80px 50px;
 }
 
 main img {
@@ -98,6 +100,7 @@ main h2 {
 
 aside {
     display: flex;
+    flex-wrap: wrap;
 }
 
 aside ul {
@@ -114,9 +117,8 @@ aside ul li {
     border-style: outset;
     border-width: 20px 20px 20px;
     
-    
-    
 }
+
 
 aside h2 {
     margin: 30px;
@@ -131,6 +133,7 @@ aside h2 {
     color: rgb(16, 54, 77);
     font-size: 40px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .contact {
@@ -141,5 +144,24 @@ aside h2 {
     color: rgb(16, 54, 77);
     font-size: 40px;
     display: flex;
+    flex-wrap: wrap;
+
+}
+
+section ul {
+    font-size: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    header,
+    nav{
+        flex-direction: column;
+    }
+
+    aside,
+    ul {
+        order: 2;
+    }
+
 
 }
