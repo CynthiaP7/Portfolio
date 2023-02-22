@@ -50,7 +50,7 @@ a:hover {
     
 main {
     display: flex;
-    flex-wrap: wrap;
+
 }
 
 main p {
@@ -68,7 +68,7 @@ main img {
     }
 
 .border {
-    height: 300px;
+    min-height: 300px;
     border-right: 15px solid grey;
     margin: 60px;
     display: flex;
@@ -104,9 +104,12 @@ main h2 {
 
 aside {
     display: flex;
-    flex-wrap: wrap;
+    
 }
 
+aside ul {
+    display: flex;
+}
 
 aside ul li {
     list-style: none;
@@ -125,12 +128,6 @@ aside h2 {
     margin-top: 50px;
 }
 
-aside div.border {
-    height: 1000px;
-    flex-shrink: initial;
-    
-     
-}
 .resume {
     border-style: outset;
     padding: 10px;
@@ -158,16 +155,24 @@ section ul {
     font-size: 30px;
 }
 
+@media screen and (max-width: 1500px) {
+    aside ul {
+        flex-direction: column;
+    }
+}
+
 @media screen and (max-width: 768px) {
     header,
     nav{
         flex-direction: column;
     }
 
-    aside,
+    aside
     ul {
-        order: 2;
+        flex-direction: column;
+
     }
+
 
 
 }
